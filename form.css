@@ -1,0 +1,78 @@
+body, div, p {
+	margin: 0;
+	padding: 0;
+	font-family:  helvetica;
+}
+
+.wrapper {
+	width: 80%;
+	margin: auto;
+}
+
+.header {
+	background-color: blue;
+	padding-top: 80px;
+	color: white;
+	text-align: center;
+	-webkit-border-radius: 0 0 30px 30px;
+	-moz-border-radius: 0 0 30px 30px;
+	border-radius: 0 0 30px 30px;
+	font-family: gabriola;
+}
+
+.headerTitle {
+	margin-top: 0;
+	letter-spacing: 3px;
+}
+
+.info {
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
+
+fieldset {
+	border: 1px solid blue;
+	padding: 10px;
+	-webkit-border-radius: 0 0 25px 25px;
+	-moz-border-radius: 0 0 25px 25px;
+	border-radius: 0 0 25px 25px;
+}
+
+legend {
+	color: blue;
+}
+
+.parameter {
+	width: 25%;
+	vertical-align: middle;
+	background-color: #9e85b4;
+	color: #12054d;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.input {
+	width: 95%;
+	padding: 10px;
+}
+
+.submit {
+	padding: 10px;
+	text-align: center;
+	width: 14%;
+	margin-left: 43%;
+	border: none;
+	background-color: blue;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color: white;
+}
+
+.submit:hover {
+	border: none;
+}
